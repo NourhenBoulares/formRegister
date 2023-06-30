@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+           background-color: rgb(231, 237, 238);
+           margin: 0;
+           padding: 16px;
+        }
+        .social-icon{
+            width: 50px;
+            height: 50px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-right: 32px;
+            padding-left: 32px;
+            
+        }
+        #social-wrapper{
+            background-color: rgb(213, 218, 219);
+        }
+        #input-wrapper{
+            padding-top: 80px;
+            padding-bottom:40px ;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .input-box{
+            font-size: 18px;
+            padding-bottom: 12px;
+            margin-bottom: 36px;
+            border: 0;
+            border-bottom: 1px solid #cccc;
+            width: 100%;
+        }
+        
+        form{
+            text-align: center;
+            background-color: white;
+            width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            border: solide #ccc;
+        }
+        #form-heading{
+            font-size: 32px;
+            padding-top: 56px;
+            padding-bottom: 32px;
+        }
+        #btn-submit{
+            background-color: #0056ff;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 24px;
+            padding-right:24px;
+            font-size: 18px;
+            color: white;
+            border: none;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <form id="form-heading">
+        <h1><b>Register</b></h1>
+        <div id="social-wrapper">
+            <img class="social-icon" src="c:\Users\emma\Documents\revision html\form\logo\google.jpg" alt="google" />
+            <img class="social-icon" src="c:\Users\emma\Documents\revision html\form\logo\facebook.jpg" alt="facebook" />
+            <img class="social-icon" src="c:\Users\emma\Documents\revision html\form\logo\github.png" alt="github" />
+            <img class="social-icon" src="c:\Users\emma\Documents\revision html\form\logo\linkedin.jpg" alt="linkedin" />
+        </div>
+        <div id="input-wrapper">
+           <div> 
+            <input class="input-box"
+            type="text" name="username" placeholder="username">
+        
+        <div>
+        <input class="input-box
+         type="text" name="email" placeholder="Email"
+        </div>
+<div>
+    <input class="input-box
+     type="text" name="password" placeholder="password"
+</div>
+<div>
+    <input class="input-box
+     type="text" name="confirm password" placeholder="confirm password"
+</div>
+        </div>
+        <input id="btn-submit"
+        type="submit"
+        value="Register"
+    </div>
+    </form>
+</body>
+</html>
